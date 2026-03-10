@@ -1,0 +1,13 @@
+[project]
+name = 'test-sbtc-contract'
+description = 'Dev-only test-sBTC faucet token for Stacks Testnet'
+authors = ['tuanpm']
+telemetry = false
+cache_dir = '.clarinet'
+requirements = []
+boot_contracts = []
+
+[contracts.test-sbtc-faucet]
+path = 'contracts/test-sbtc-faucet.clar'
+clarity_version = 3
+epoch = 3.0
