@@ -102,3 +102,7 @@ You can keep some settings mutable through data vars, which this contract alread
 - token URI
 
 If you want a stronger upgrade path, use a separate registry/proxy pattern and point apps at the registry rather than a fixed token contract.
+
+## License
+
+MIT
